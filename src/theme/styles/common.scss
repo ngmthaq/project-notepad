@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: "Montserrat", sans-serif !important;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden !important;
+}
+
+.user-select-none {
+    user-select: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888888;
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #696969;
+}
