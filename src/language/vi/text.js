@@ -13,4 +13,6 @@ export const TXT_SMALL_SCREEN_WARNING =
 
 export const TXT_VIETNAMESE = "Tiếng Việt";
 
-export const TXT_ENGLISH = "English";
+export const TXT_ENGLISH = "Tiếng Anh";
+
+export const TXT_SEARCH = "Tìm kiếm";

@@ -33,7 +33,7 @@ InitLoading.defaultProps = {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.palette.common.white,
+    backgroundColor: theme.palette.grey["700"],
     zIndex: theme.zIndex.modal,
     height: vh(100),
     marginTop: AppConstant.ELEMENT_HEIGHT.primaryTitleBar,

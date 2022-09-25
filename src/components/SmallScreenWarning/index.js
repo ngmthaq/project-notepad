@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     padding: 12,
+    backgroundColor: theme.palette.common.white,
   },
   img: {
     width: 200,
@@ -47,6 +48,7 @@ const useStyles = makeStyles((theme) => ({
   text: {
     marginBottom: 12,
     textAlign: "center",
+    color: theme.palette.common.black,
   },
   icon: {
     marginRight: 4,

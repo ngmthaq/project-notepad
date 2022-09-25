@@ -38,7 +38,7 @@ const App = () => {
 
     let timer = setTimeout(() => {
       setIsFirstInit(false);
-    }, 5000);
+    }, 1000);
 
     return () => {
       clearTimeout(timer);
