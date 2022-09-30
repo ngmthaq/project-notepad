@@ -16,3 +16,5 @@ export const TXT_VIETNAMESE = "Tiếng Việt";
 export const TXT_ENGLISH = "Tiếng Anh";
 
 export const TXT_SEARCH = "Tìm kiếm";
+
+export const TXT_EMPTY_NOTE = "Không tìm thấy ghi chú";

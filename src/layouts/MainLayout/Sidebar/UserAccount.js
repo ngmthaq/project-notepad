@@ -5,7 +5,7 @@ import { makeStyles } from "@mui/styles";
 import { Search } from "@mui/icons-material";
 import { Avatar, Box, InputAdornment, Typography } from "@mui/material";
 import { LangConstant } from "const";
-import DebounceInput from "src/components/DebounceInput";
+import { DebounceInput, LoginDialog } from "src/components";
 import { SidebarContext } from ".";
 
 const UserAccount = () => {
@@ -16,6 +16,15 @@ const UserAccount = () => {
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
 
   const [user, setUser] = useState(INIT_DATA.user);
+  const [isOpenLoginForm, setIsOpenLoginForm] = useState(false);
+
+  const onCloseLoginForm = () => {
+    setIsOpenLoginForm(false);
+  };
+
+  const onOpenLoginForm = () => {
+    setIsOpenLoginForm(true);
+  };
 
   return (
     <Box className={classes.root}>
@@ -40,6 +49,7 @@ const UserAccount = () => {
           </InputAdornment>
         }
       />
+      <LoginDialog open={isOpenLoginForm} onClose={onCloseLoginForm} />
     </Box>
   );
 };

@@ -16,3 +16,5 @@ export const TXT_VIETNAMESE = "Vietnamese";
 export const TXT_ENGLISH = "English";
 
 export const TXT_SEARCH = "Search";
+
+export const TXT_EMPTY_NOTE = "No notes found";

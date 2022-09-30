@@ -26,6 +26,7 @@ export const TXT_SMALL_SCREEN_WARNING = "TXT_SMALL_SCREEN_WARNING";
 export const TXT_VIETNAMESE = "TXT_VIETNAMESE";
 export const TXT_ENGLISH = "TXT_ENGLISH";
 export const TXT_SEARCH = "TXT_SEARCH";
+export const TXT_EMPTY_NOTE = "TXT_EMPTY_NOTE";
 
 // Language configs
 export const LOCALE_OPTIONS = [

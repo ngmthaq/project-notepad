@@ -5,9 +5,7 @@ import { Input } from "@mui/material";
 /**
  * inherits [InputBase API](https://mui.com/material-ui/api/input-base/)
  */
-const DebounceInput = (props) => {
-  const { value, onChange, classes, ...otherProps } = props;
-
+const DebounceInput = ({ value, onChange, classes, ...otherProps }) => {
   const [input, setInput] = useState(value);
 
   const onDebounce = (e) => {

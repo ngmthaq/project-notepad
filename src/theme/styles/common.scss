@@ -18,6 +18,14 @@ body {
     user-select: none !important;
 }
 
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }

@@ -5,7 +5,6 @@ import { Box } from "@mui/material";
 import { AppConstant } from "const";
 import { vh } from "utils";
 import UserAccount from "./UserAccount";
-import Categories from "./Categories";
 import NoteList from "./NoteList";
 
 const Sidebar = () => {
@@ -34,7 +33,6 @@ const Sidebar = () => {
     <SidebarContext.Provider value={context}>
       <Box className={classes.root}>
         <UserAccount />
-        <Categories />
         <NoteList />
       </Box>
     </SidebarContext.Provider>
@@ -47,7 +45,7 @@ export const SidebarContext = createContext();
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.palette.grey[900],
+    backgroundColor: theme.palette.common.black,
     width: AppConstant.ELEMENT_WIDTH.sideBar,
     maxWidth: "30vw",
     height: vh(100),

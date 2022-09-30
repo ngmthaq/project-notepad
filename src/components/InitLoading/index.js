@@ -5,9 +5,8 @@ import { makeStyles } from "@mui/styles";
 import { vh } from "utils";
 import { AppConstant, ImageConstant } from "const";
 
-const InitLoading = (props) => {
+const InitLoading = ({ open }) => {
   const classes = useStyles();
-  const { open } = props;
 
   return (
     <Fade in={open}>
