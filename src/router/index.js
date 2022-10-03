@@ -5,12 +5,13 @@ import { PathConstant } from "const";
 import AuthRoute from "./AuthRoute";
 import Error from "src/pages/Error";
 import Login from "src/pages/Login";
+import Home from "src/pages/Home";
 
 const Router = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path={PathConstant.ROOT} element={<Login />} />
+        <Route path={PathConstant.ROOT} element={<Home />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </HashRouter>

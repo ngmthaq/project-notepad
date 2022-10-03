@@ -5,9 +5,8 @@ import { makeStyles } from "@mui/styles";
 import { vh } from "utils";
 import { AppConstant, ImageConstant } from "const";
 
-const InitLoading = (props) => {
+const InitLoading = ({ open }) => {
   const classes = useStyles();
-  const { open } = props;
 
   return (
     <Fade in={open}>
@@ -33,7 +32,7 @@ InitLoading.defaultProps = {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.palette.common.white,
+    backgroundColor: theme.palette.grey["700"],
     zIndex: theme.zIndex.modal,
     height: vh(100),
     marginTop: AppConstant.ELEMENT_HEIGHT.primaryTitleBar,

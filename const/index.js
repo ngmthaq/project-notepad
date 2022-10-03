@@ -4,7 +4,6 @@ import * as KeyConstant from "./key.const";
 import * as LangConstant from "./lang.const";
 import * as PathConstant from "./path.const";
 import * as ImageConstant from "../src/theme/images";
-import * as FormatConstant from "./format.const";
 
 export {
   ApiConstant,
@@ -13,5 +12,4 @@ export {
   LangConstant,
   PathConstant,
   ImageConstant,
-  FormatConstant,
 };

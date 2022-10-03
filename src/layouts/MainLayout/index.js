@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/material";
+import Sidebar from "./Sidebar";
 
 const MainLayout = (props) => {
   const { children, classes } = props;
@@ -10,6 +11,7 @@ const MainLayout = (props) => {
 
   return (
     <Box className={clsx(defaultClasses.root, classes.root)}>
+      <Sidebar />
       <Box className={clsx(defaultClasses.children, classes.children)}>
         {children}
       </Box>
@@ -34,4 +36,8 @@ MainLayout.defaultProps = {
   },
 };
 
-const useStyles = makeStyles((theme) => ({}));
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+  },
+}));

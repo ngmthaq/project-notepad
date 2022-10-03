@@ -25,6 +25,9 @@ export const TXT_LOGIN_TITLE = "TXT_LOGIN_TITLE";
 export const TXT_SMALL_SCREEN_WARNING = "TXT_SMALL_SCREEN_WARNING";
 export const TXT_VIETNAMESE = "TXT_VIETNAMESE";
 export const TXT_ENGLISH = "TXT_ENGLISH";
+export const TXT_SEARCH = "TXT_SEARCH";
+export const TXT_EMPTY_NOTE = "TXT_EMPTY_NOTE";
+export const TXT_ADD_NEW = "TXT_ADD_NEW";
 
 // Language configs
 export const LOCALE_OPTIONS = [
