@@ -18,3 +18,5 @@ export const TXT_ENGLISH = "English";
 export const TXT_SEARCH = "Search";
 
 export const TXT_EMPTY_NOTE = "No notes found";
+
+export const TXT_ADD_NEW = "Add new";

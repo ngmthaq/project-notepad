@@ -122,7 +122,7 @@ RestoreWindowIcon.defaultProps = {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.palette.common.black,
+    backgroundColor: theme.palette.grey[900],
     height: AppConstant.ELEMENT_HEIGHT.primaryTitleBar,
     userSelect: "none",
     WebkitAppRegion: "drag",

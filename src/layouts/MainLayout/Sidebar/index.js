@@ -6,6 +6,7 @@ import { AppConstant } from "const";
 import { vh } from "utils";
 import UserAccount from "./UserAccount";
 import NoteList from "./NoteList";
+import CreateNote from "./CreateNote";
 
 const Sidebar = () => {
   const classes = useStyles();
@@ -34,6 +35,7 @@ const Sidebar = () => {
       <Box className={classes.root}>
         <UserAccount />
         <NoteList />
+        <CreateNote />
       </Box>
     </SidebarContext.Provider>
   );
@@ -50,5 +52,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "30vw",
     height: vh(100),
     padding: 16,
+    position: "relative",
   },
 }));

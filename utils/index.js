@@ -105,8 +105,8 @@ export const vw = (number) => {
   return number + "vw";
 };
 
-export const vh = (number) => {
-  return `calc(${number}vh - ${AppConstant.ELEMENT_HEIGHT.primaryTitleBar}px)`;
+export const vh = (number, height = 0) => {
+  return `calc(${number}vh - ${AppConstant.ELEMENT_HEIGHT.primaryTitleBar}px - ${height}px)`;
 };
 
 export const deepClone = (data) => {
